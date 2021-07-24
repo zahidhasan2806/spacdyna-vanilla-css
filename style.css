@@ -1,0 +1,434 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 605px;
+    
+    
+}
+.container .blue-highlight{
+    color: #03a4ed;
+}
+.container .red-highlight{
+    color: #fe3f40;
+}
+
+/* ****************
+ Header style
+  **************** */
+
+header{
+    background-color: rgba(226, 226, 226, 0.205);
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+
+}
+.nav-title{
+    font-size: 18px;
+    font-weight: 700;
+}
+.nav-title h1{
+    color: #03a4ed;
+}
+.nav-title span{
+    color: #fe3f40;
+}
+.nav-list ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-list ul li{
+    margin: 20px;
+    font-size: 16px;
+    
+}
+.nav-list ul li a {
+    text-decoration: none;
+    color: #000;
+}
+.nav-list ul li a:hover{
+    color: #fe3f40;
+}
+#nav-item {
+    color: #fe3f40; 
+}
+.nav-list ul li button{
+    background-color: #fe3f40;
+    color: white;
+    font-size: 16px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+}
+.nav-list ul li button:hover{
+    background-color:#03a4ed;
+}
+/* *****************
+Banner section 
+****************** */
+.introduction{
+    background-image: url(images/baner-dec-left.png), url(images/baner-dec-right\ \(1\).png);
+    background-position:  left top,right top;
+    background-repeat: no-repeat;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 120px;
+    
+    
+}
+.intro-content h4{
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fe3f40;
+    margin-bottom: 15px;
+}
+.intro-content h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.intro-content p{
+    font-size: 15px;
+    line-height: 30px;
+    color: #2a2a2abd ;
+}
+.buttonIn {
+        width: 470px;
+        position: relative;
+        height: 66px;
+        margin-top: 30px;
+    }
+
+.buttonIn input{
+    background-color: #03a4ed;
+    width: 470px;
+    height: 66px;
+    border: none;
+    border-radius: 33px;
+    padding: 0px 25px;
+    letter-spacing: 0.25px;
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+.buttonIn input:focus{
+    outline: none;
+    color: white;
+}
+::placeholder { 
+    color: white;
+    opacity: 1;
+    padding-left: 20px;
+}
+.buttonIn button{
+   
+        position: absolute;
+        display: inline-block;
+        right: 10px;
+        top: 8px;
+        border-radius: 23px;
+        font-size: 15px;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+        color: #fe3f40;;
+        background-color: #fff;
+        padding: 12px 25px;
+}
+/* *******************
+About Section
+ ******************** */
+ .about{
+    margin-top: 150px;
+     background-image: url(images/about-bg.png);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 120px;
+
+   
+ }
+.about-img{
+    padding-top: 200px;
+    margin-right: 50px;
+ }
+.about-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 75px;
+    grid-row-gap: 40px;
+}
+.about-item{
+    width: 420px;
+    display: flex;
+    align-items: center;
+
+}
+
+.about-item-info{
+    color: white;
+    padding-left: 25px;
+}
+/* *************** 
+progress section
+**************** */
+.progress{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+.progress-img{
+    margin: 0 12px;
+}
+.progress-img img{
+    width: 550px;
+    height: 410px;
+}
+.progress-info{
+    width: 636px;
+}
+.progress-info h1{
+    font-size: 30px;
+    line-height: 44px;
+}
+.progress-info p{
+    font-size: 15px;
+    line-height: 30px;
+    color: #2a2a2a;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.progress-report{
+    width: 660px;
+    height: 213px;
+}
+.progress-bar{
+    position: relative;
+    width: 100%;
+}
+.progress-bar h4{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 14px;
+
+}
+.progress-bar span{
+    position: absolute;
+    left: 80%;
+    top: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #03a4ed;
+}
+progress{
+    width: 100%;
+    border-radius: 3px;
+    background-color:rgba(255,77,30,1) ;
+}
+/* *******************
+ Offer section 
+********************* */
+.Offers{
+    padding-top: 120px;
+    position: relative;
+}
+.offer-title{
+    height: 208px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.offer-title h1{
+    text-align: center;
+}
+.offer-details{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.offer-img, .offer-img-1,.offer-img-2, .offer-img-3{
+    text-align: center;
+    width: 305px;
+    height: 215px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(224, 222, 222);
+}
+.offer-img>img,.offer-img-1>img, .offer-img-2>img,.offer-img-3>img{
+padding: 50px;
+}
+.offer-img:hover{
+    margin-top: 50px;
+    transition: .8s ;
+}
+.offer-img:hover .offer-hidden-info{
+    display: block;
+    top: 220px;
+}
+.offer-hidden-info{
+    background-image: linear-gradient(#FF431F, #FF2D69);
+    width: 305px;
+    height: 150px;
+    border-radius: 20px;
+    position: absolute;
+    top: 170px;
+    display: none;
+    
+}
+.offer-hidden-info h3{
+    color: honeydew;
+   padding: 25px;
+   text-align: center;
+}
+.offer-hidden-info p{
+    color: honeydew;
+   font-size: 15px;
+    font-weight: 150;
+    text-align: center;
+    padding: 15px;
+}
+
+.offer-img-1:hover{
+    margin-top: 50px;
+    transition: .8s ;
+}
+.offer-img-1:hover .offer-hidden-info{
+    display: block;
+    top: 220px;
+}
+.offer-img-2:hover{
+    margin-top: 50px;
+    transition: .8s ;
+}
+.offer-img-2:hover .offer-hidden-info{
+    display: block;
+    top: 220px;
+}
+.offer-img-3:hover{
+    margin-top: 50px;
+    transition: .8s ;
+}
+.offer-img-3:hover .offer-hidden-info{
+    display: block;
+    top: 220px;
+}
+/* *****************
+ contact section 
+ ****************/
+ .contact{
+    background-image: url(images/contact-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    }
+.contact-info{
+   width: 660px;
+
+}    
+.contact-info h1{
+    font-size: 36px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+    
+}
+.contact-info p{
+    font-size: 15px;
+    font-weight: 10;
+    color:white;
+    margin-bottom: 20px;
+}
+.contact-info h5{
+    font-size: 15px;
+    font-weight: 10;
+    color:white;
+    margin-bottom: 20px;
+}
+.contact-info h5 .fas{
+    margin: 15px;
+}
+.contact-box{
+    position: relative;
+}
+.contact-form{
+    background-color: #fff;
+    width: 660px;
+    height: 458px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.contact-form input{
+    margin: 20px 15px ;
+    border-radius: 25px;
+    background-color:rgb(160, 200, 216);
+    padding: 15px;
+}
+.contact-form>input::placeholder{
+    color: gray;
+    font-size: 15px;
+}
+.fname input{
+        margin: 20px 15px ;
+        border-radius: 25px;
+        background-color:rgb(160, 200, 216);
+    }
+.contact-form>textarea::placeholder{
+        color: gray;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+.fname input::placeholder{
+    color: gray;
+    font-size: 15px;
+}
+#message-box{
+    margin: 20px 15px;
+    border-radius: 25px;
+    background-color:rgb(160, 200, 216);
+}
+#message-box:focus{
+    outline: none;
+}
+.contact-form button{
+    width: 200px;
+    font-size: 20px;
+    margin: 0 0 50px 15px;
+    border: none;
+    border-radius: 20px;
+    background-color:rgb(160, 200, 216);
+}
+.contact-form img{
+    position: absolute;
+    top: 120px;
+    right:-160px;
+}
+footer{
+    margin: 25px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+}
